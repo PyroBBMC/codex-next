@@ -9,7 +9,7 @@ import React, { useState, useRef, useEffect } from 'react'
 import { Nav as BSNav, Navbar } from 'react-bootstrap'
 import SimpleBar from 'simplebar-react'
 import Image from 'next/image'
-import authorImg from 'root/public/partials/nav/headshot.jpg'
+import authorImg from 'root/public/partials/nav/headshot.jpeg'
 import styled from './style'
 
 // Mobile navbar component
