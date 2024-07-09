@@ -5,7 +5,7 @@ This is the home page but with a "snow" particles effect for the Hero section
 import ScrollWrapper from 'root/src/components/scroll-wrapper'
 import Hero from 'root/src/partials/hero'
 import About from 'root/src/partials/about'
-import Services from 'root/src/partials/services'
+// import Services from 'root/src/partials/services'
 import Hire from 'root/src/partials/hire'
 import Portfolio, { PortfolioDataPath } from 'root/src/partials/portfolio'
 import Blog, { BlogDataPath } from 'root/src/partials/blog'
@@ -26,7 +26,7 @@ const HomeSnow = ({ portfolioData, testimonialsData, blogData }) => (
 
     {/* Include the rest of sections, some with passed MDX data */}
     <About nav='About' id='about' />
-    <Services nav='Services' id='services' />
+    {/* <Services nav='Services' id='services' /> */}
     <Hire id='hire' />
     <Portfolio nav='Portfolio' id='portfolio' data={portfolioData} />
     <Testimonials nav='Clients' id='testimonials' data={testimonialsData} />
