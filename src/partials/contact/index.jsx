@@ -26,9 +26,9 @@ Make sure the values are replaced with your own EmailJS credentials.
 Read the documentation for more information
 */
 const emailjsParams = {
-  serviceId: "your_service_id",
-  templateId: "your_template_id",
-  publicKey: "your_public_key",
+  serviceId: 'service_sskur35',
+  templateId: 'template_fcvk9hu',
+  publicKey: '_6X0rHVu4nssfjPxZ',
 }
 
 // Define initial state
