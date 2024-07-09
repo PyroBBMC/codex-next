@@ -66,22 +66,26 @@ const Footer = (props) => (
       />
       <SingleBlock
         Icon={icons.SendSharp}
-        content={<a href='mailto:alex@example.com'>torianotriche@gmail.com</a>}
+        content={
+          <a href='mailto:urbaninsightsolutions@gmail.com'>
+            urbaninsightsolutions@gmail.com
+          </a>
+        }
         cols={{ xs: '12', sm: '4' }}
       />
     </Row>
     {/* List social media icons and copyright notice */}
     <Row className='_row _mini'>
       <Col xs='12' lg='5' className='_socials'>
-        <SocialIcon url='#0' Icon={icons.LogoTwitter} color='#1DA1F2' />
-        <SocialIcon url='#0' Icon={icons.LogoInstagram} color='#C32361' />
+        {/* <SocialIcon url='#0' Icon={icons.LogoTwitter} color='#1DA1F2' /> */}
+        {/* <SocialIcon url='#0' Icon={icons.LogoInstagram} color='#C32361' /> */}
         <SocialIcon url='#0' Icon={icons.LogoLinkedin} color='#0077B5' />
-        <SocialIcon url='#0' Icon={icons.LogoYoutube} color='#c33a38' />
+        {/* <SocialIcon url='#0' Icon={icons.LogoYoutube} color='#c33a38' /> */}
         <SocialIcon url='#0' Icon={icons.LogoGithub} color='#6e5494' />
-        <SocialIcon url='#0' Icon={icons.LogoFacebook} color='#3B5998' />
+        {/* <SocialIcon url='#0' Icon={icons.LogoFacebook} color='#3B5998' /> */}
       </Col>
       <Col as='p' xs='12' lg='7' className='_copyright-notice'>
-        Copyright © 2024 UrbanInsigt, all rights reserved. Developed by{' '}
+        Copyright © 2024 UrbanInsight, all rights reserved. Developed by{' '}
         <a href='https://themeforest.net/user/exill' target='_blank'>
           UrbanInsight Solutions
         </a>
