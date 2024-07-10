@@ -328,7 +328,7 @@ const Blog = (props) => {
   return (
     <SectionWrapper
       headerData={{
-        title: 'My Blog',
+        title: 'DATAQUEST',
         description: 'Check out my latest blog posts',
       }}
       altBg={false}

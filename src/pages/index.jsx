@@ -22,7 +22,7 @@ const HomeImage = ({ portfolioData, testimonialsData, blogData }) => (
     <Metadata />
 
     {/* Hero section with an image background */}
-    <Hero nav='Home' id='home' variant='image' />
+    <Hero nav='Home' id='home' variant='particles' />
 
     {/* Include the rest of sections, some with passed MDX data */}
     <About nav='About' id='about' />
