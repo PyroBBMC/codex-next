@@ -79,9 +79,17 @@ const Footer = (props) => (
       <Col xs='12' lg='5' className='_socials'>
         {/* <SocialIcon url='#0' Icon={icons.LogoTwitter} color='#1DA1F2' /> */}
         {/* <SocialIcon url='#0' Icon={icons.LogoInstagram} color='#C32361' /> */}
-        <SocialIcon url='#0' Icon={icons.LogoLinkedin} color='#0077B5' />
+        <SocialIcon
+          url='https://www.linkedin.com/in/informationtechnologygloballeader/'
+          Icon={icons.LogoLinkedin}
+          color='#0077B5'
+        />
         {/* <SocialIcon url='#0' Icon={icons.LogoYoutube} color='#c33a38' /> */}
-        <SocialIcon url='#0' Icon={icons.LogoGithub} color='#6e5494' />
+        <SocialIcon
+          url='https://github.com/PyroBBMC'
+          Icon={icons.LogoGithub}
+          color='#6e5494'
+        />
         {/* <SocialIcon url='#0' Icon={icons.LogoFacebook} color='#3B5998' /> */}
       </Col>
       <Col as='p' xs='12' lg='7' className='_copyright-notice'>
