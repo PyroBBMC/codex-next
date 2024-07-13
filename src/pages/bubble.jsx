@@ -27,8 +27,8 @@ const HomeBubble = ({ portfolioData, testimonialsData, blogData }) => (
     {/* Include the rest of sections, some with passed MDX data */}
     <About nav='About' id='about' />
     {/* <Services nav='Services' id='services' /> */}
-    <Hire id='hire' />
-    <Portfolio nav='Portfolio' id='portfolio' data={portfolioData} />
+    {/* <Hire id='hire' /> */}
+    {/* <Portfolio nav='Portfolio' id='portfolio' data={portfolioData} /> */}
     {/* <Testimonials nav='Clients' id='testimonials' data={testimonialsData} /> */}
     <Blog nav='Blog' id='blog' data={blogData} />
     <Contact nav='Contact' id='contact' />
@@ -46,7 +46,7 @@ Read more: https://nextjs.org/docs/pages/building-your-application/data-fetching
 */
 export const getStaticProps = async () => ({
   props: {
-    portfolioData: await parseAllMdx(PortfolioDataPath),
+    // portfolioData: await parseAllMdx(PortfolioDataPath),
     // testimonialsData: await parseAllMdx(testimonialsDataPath),
     blogData: await parseAllMdx(BlogDataPath),
   },
