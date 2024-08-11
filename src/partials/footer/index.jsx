@@ -53,7 +53,7 @@ const Footer = (props) => (
       <SingleBlock
         Icon={icons.MapSharp}
         content={
-          <a href='https://goo.gl/maps/2YAGiugG47VAS17g7' target='_blank'>
+          <a href='https://maps.app.goo.gl/fqsrEGo1uAGdd1ui7' target='_blank'>
             Atlanta, GA.
           </a>
         }
